@@ -23,6 +23,7 @@ namespace ProjectChallenge
         public MainWindow()
         {
             InitializeComponent();
+            Nou dit is een testje
         }
     }
 }
