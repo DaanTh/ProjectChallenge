@@ -56,6 +56,15 @@
     <Compile Include="Leerstofselectie.xaml.cs">
       <DependentUpon>Leerstofselectie.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Taal.xaml.cs">
+      <DependentUpon>Taal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kennis.xaml.cs">
+      <DependentUpon>Kennis.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Wiskunde.xaml.cs">
+      <DependentUpon>Wiskunde.xaml</DependentUpon>
+    </Compile>
     <Page Include="Inlogscherm.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -69,6 +78,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Leerstofselectie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Taal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kennis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Wiskunde.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

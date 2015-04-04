@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 //Author : Daan Theunis
-//Date : 03.04.2015 18:56
+//Date : 04.04.2015 17:20
 
 namespace ProjectChallenge
 {
@@ -25,6 +25,25 @@ namespace ProjectChallenge
         public Window2()
         {
             InitializeComponent();
+        }
+
+        private void wiskunde_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 wiskunde = new Window3();
+            wiskunde.Show();
+            this.Close(); ;
+        }
+        private void taal_Click(object sender, RoutedEventArgs e)
+        {
+            Window4 wiskunde = new Window4();
+            wiskunde.Show();
+            this.Close(); ;
+        }
+        private void kennis_Click(object sender, RoutedEventArgs e)
+        {
+            Window5 wiskunde = new Window5();
+            wiskunde.Show();
+            this.Close(); ;
         }
     }
 }
