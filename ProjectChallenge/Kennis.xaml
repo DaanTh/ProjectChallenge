@@ -3,7 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Window5" Height="300" Width="300">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="128,138,0,0" TextWrapping="Wrap" Text="Kennisoefeningen" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Menu" HorizontalAlignment="Left" Margin="40,240,0,0" VerticalAlignment="Top" Width="75" Click="menu_Click"/>
+        <Grid x:Name="testje" Background="#FFFFAC"></Grid>
+        <Button Content="Menu" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="75" Click="menu_Click"/>
+        <Button Background="#FFFFE0" Content="1ste Graad" HorizontalAlignment="Left" Margin="106,49,0,0" VerticalAlignment="Top" Width="88" Height="37" FontSize="15" Click="eerste_Click"/>
+        <Button Background="#FFFFE0" Content="2de Graad" HorizontalAlignment="Left" Margin="106,110,0,0" VerticalAlignment="Top" Width="88" Height="37" FontSize="15" Click="tweede_Click"/>
+        <Button Background="#FFFFE0" Content="3de Graad" HorizontalAlignment="Left" Margin="106,171,0,0" VerticalAlignment="Top" Width="88" Height="37" FontSize="15" Click="derde_Click"/>
+        <TextBox Background="#FFFFAC" HorizontalAlignment="Left" Height="34" Margin="37,10,0,0" TextWrapping="Wrap" Text="Kies uw moeilijkheidsgraad" FontSize="18" VerticalAlignment="Top" Width="235" BorderThickness="0"/>
     </Grid>
 </Window>
