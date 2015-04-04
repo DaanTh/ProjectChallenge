@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+// author : Theunis Daan
+// Date : 04.04.2015 17:31
 namespace ProjectChallenge
 {
     /// <summary>
@@ -23,5 +25,12 @@ namespace ProjectChallenge
         {
             InitializeComponent();
         }
+        private void menu_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 menu = new Window2();
+            menu.Show();
+            this.Close();
+        }
+
     }
 }
