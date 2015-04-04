@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+//Author : Daan Theunis
+//Date : 03.04.2015 18:56
+
 namespace ProjectChallenge
 {
     /// <summary>

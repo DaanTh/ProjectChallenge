@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Login" Height="350" Width="525">
     <Grid>
-        <Grid Background="#FFFFAC"></Grid>
+        <Grid x:Name="testje" Background="#FFFFAC"></Grid>
         <TextBlock Foreground="#7A5230" Height="30" HorizontalAlignment="Left" Margin="10,10,0,0" Name="LoginHeading" Text="Aanmelden:" VerticalAlignment="Top" FontSize="20" FontStretch="ExtraCondensed"/>
         <TextBlock Foreground="#7A5230" Height="26" HorizontalAlignment="Left" Margin="38,109,0,184" Name="textBlock1" Text="Gebruikersnaam" VerticalAlignment="Center" Width="123" FontSize="16"/>
         <TextBlock Foreground="#7A5230" Height="26" HorizontalAlignment="Left" Margin="58,168,0,125" Name="textBlock2" Text="Wachtwoord" VerticalAlignment="Center" Width="103" FontSize="16" RenderTransformOrigin="0.484,1.036"/>
