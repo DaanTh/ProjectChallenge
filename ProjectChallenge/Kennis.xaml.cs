@@ -31,6 +31,35 @@ namespace ProjectChallenge
             menu.Show();
             this.Close();
         }
+        private void eerste_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void tweede_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void derde_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void tafels_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void optellingen_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void delingen_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
 
     }
 }

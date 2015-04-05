@@ -53,6 +53,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Delingen.xaml.cs">
+      <DependentUpon>Delingen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Leerstofselectie.xaml.cs">
       <DependentUpon>Leerstofselectie.xaml</DependentUpon>
     </Compile>
@@ -62,9 +65,16 @@
     <Compile Include="Kennis.xaml.cs">
       <DependentUpon>Kennis.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Tafels.xaml.cs">
+      <DependentUpon>Tafels.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Wiskunde.xaml.cs">
       <DependentUpon>Wiskunde.xaml</DependentUpon>
     </Compile>
+    <Page Include="Delingen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Inlogscherm.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -86,6 +96,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Kennis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tafels.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
